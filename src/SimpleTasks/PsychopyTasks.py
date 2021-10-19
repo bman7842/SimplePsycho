@@ -14,7 +14,7 @@ SCN Lab Information:
 import datetime
 from psychopy import data
 
-from SCNManagers.PsychopyManager import PsychopyTask
+from SimplePsycho.PsychopyManager import PsychopyTask
 
 #TODO, add a run function for each type of screen, run welcome, run instructions, etc. that way the start() function is
 # simply, runWelcome(), runInstructions(), runVideo(videoName), etc.
